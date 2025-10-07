@@ -4,8 +4,8 @@ const Home = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-400 via-teal-500 to-teal-600 text-white py-32 pt-24 relative overflow-hidden">
-        {/* Background Pattern */}
+      <section className="bg-gradient-to-br from-slate-900 via-teal-900 to-slate-800 text-white py-32 pt-24 relative overflow-hidden">
+        {/* Subtle Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
             <defs>
@@ -17,7 +17,9 @@ const Home = () => {
             <rect width="100%" height="100%" fill="url(#dental-pattern)"/>
           </svg>
         </div>
-        <div className="absolute inset-0 bg-black opacity-10"></div>
+
+        {/* Professional Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-teal-600/30 via-transparent to-teal-500/20"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <h1 className="text-6xl md:text-8xl font-extrabold mb-6 leading-tight bg-gradient-to-r from-white to-teal-100 bg-clip-text text-transparent">
@@ -46,10 +48,19 @@ const Home = () => {
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent"></div>
-        {/* Floating Elements */}
-        <div className="absolute top-20 left-10 w-4 h-4 bg-white/20 rounded-full animate-bounce delay-1000"></div>
-        <div className="absolute top-32 right-16 w-6 h-6 bg-white/10 rounded-full animate-bounce delay-2000"></div>
-        <div className="absolute bottom-32 left-20 w-3 h-3 bg-white/15 rounded-full animate-bounce delay-3000"></div>
+        {/* Enhanced Floating Elements */}
+        <div className="absolute top-20 left-10 w-4 h-4 bg-white/20 rounded-full animate-bounce delay-1000 shadow-lg"></div>
+        <div className="absolute top-32 right-16 w-6 h-6 bg-cyan-200/15 rounded-full animate-pulse delay-2000 shadow-lg"></div>
+        <div className="absolute bottom-32 left-20 w-3 h-3 bg-white/15 rounded-full animate-bounce delay-3000 shadow-lg"></div>
+        <div className="absolute top-40 right-8 w-2 h-2 bg-teal-200/25 rounded-full animate-ping delay-500 shadow-lg"></div>
+        <div className="absolute bottom-40 right-20 w-5 h-5 bg-white/10 rounded-full animate-pulse delay-1500 shadow-lg"></div>
+        <div className="absolute top-60 left-1/4 w-3 h-3 bg-cyan-300/20 rounded-full animate-bounce delay-2500 shadow-lg"></div>
+        <div className="absolute bottom-20 left-1/3 w-4 h-4 bg-teal-300/15 rounded-full animate-pulse delay-3500 shadow-lg"></div>
+
+        {/* Geometric Shapes */}
+        <div className="absolute top-16 left-16 w-8 h-8 border border-white/20 rotate-45 animate-spin" style={{animationDuration: '20s'}}></div>
+        <div className="absolute bottom-24 right-12 w-6 h-6 border border-cyan-200/30 rounded-full animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-8 w-2 h-12 bg-gradient-to-b from-white/10 to-transparent animate-pulse delay-2000"></div>
       </section>
 
       {/* Statistics Section */}
@@ -61,7 +72,7 @@ const Home = () => {
               <div className="text-gray-600 font-medium">Happy Patients</div>
             </div>
             <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
-              <div className="text-4xl md:text-5xl font-bold text-teal-600 mb-2">15+</div>
+              <div className="text-4xl md:text-5xl font-bold text-teal-600 mb-2">5+</div>
               <div className="text-gray-600 font-medium">Years Experience</div>
             </div>
             <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
