@@ -35,8 +35,8 @@ const Booking = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-400 via-teal-500 to-teal-600 text-white py-32 pt-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-black opacity-10"></div>
+      <section className="bg-gradient-to-br from-slate-900 via-teal-900 to-slate-800 text-white py-32 pt-24 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-teal-600/30 via-transparent to-teal-500/20"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <h1 className="text-6xl md:text-8xl font-extrabold mb-6 leading-tight">
