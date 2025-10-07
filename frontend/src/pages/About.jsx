@@ -34,7 +34,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
               <div className="relative">
-                <img src={beforeAfter0} alt="Before orthodontic treatment showing misaligned teeth" className="w-full h-48 object-cover" />
+                <img src={beforeAfter0} alt="Before orthodontic treatment showing misaligned teeth" className="w-full h-48 object-contain" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Crooked Teeth Correction</h3>
@@ -43,7 +43,7 @@ const About = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
               <div className="relative">
-                <img src={beforeAfter1} alt="After orthodontic treatment showing perfect alignment" className="w-full h-48 object-cover" />
+                <img src={beforeAfter1} alt="After orthodontic treatment showing perfect alignment" className="w-full h-48 object-contain" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Perfect Smile Alignment</h3>
@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-600">
               <div className="relative">
-                <img src={beforeAfter2} alt="Before showing stained and damaged teeth" className="w-full h-48 object-cover" />
+                <img src={beforeAfter2} alt="Before showing stained and damaged teeth" className="w-full h-48 object-contain" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Stained & Damaged Teeth</h3>
@@ -61,7 +61,7 @@ const About = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-800">
               <div className="relative">
-                <img src={beforeAfter3} alt="After showing bright, restored teeth" className="w-full h-48 object-cover" />
+                <img src={beforeAfter3} alt="After showing bright, restored teeth" className="w-full h-48 object-contain" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Bright & Restored Smile</h3>
@@ -70,7 +70,7 @@ const About = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-1000">
               <div className="relative">
-                <img src={beforeAfter4} alt="Before showing missing teeth and gaps" className="w-full h-48 object-cover" />
+                <img src={beforeAfter4} alt="Before showing missing teeth and gaps" className="w-full h-48 object-contain" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Missing Teeth Restoration</h3>
@@ -79,7 +79,7 @@ const About = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-1200">
               <div className="relative">
-                <img src={beforeAfter5} alt="After showing complete dental restoration" className="w-full h-48 object-cover" />
+                <img src={beforeAfter5} alt="After showing complete dental restoration" className="w-full h-48 object-contain" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Complete Dental Restoration</h3>
