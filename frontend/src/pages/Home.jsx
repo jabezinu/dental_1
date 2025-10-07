@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
     <div>
@@ -6,7 +8,7 @@ const Home = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Dental Clinic</h1>
           <p className="text-xl mb-8">Your smile is our priority. Experience top-notch dental care.</p>
-          <button className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100">Book an Appointment</button>
+          <Link to="/booking" className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 inline-block">Book an Appointment</Link>
         </div>
       </section>
 
@@ -31,14 +33,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About Us Blurb */}
-      <section className="py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">About Us</h2>
-          <p className="text-lg max-w-2xl mx-auto">We are a dedicated team of dental professionals committed to providing exceptional care in a comfortable environment. Your oral health is our passion.</p>
-        </div>
-      </section>
-
       {/* Testimonials */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -53,17 +47,6 @@ const Home = () => {
               <p className="mt-4 font-semibold">- Jane Smith</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Contact Info */}
-      <section className="py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
-          <p>Phone: (123) 456-7890</p>
-          <p>Email: info@dentalclinic.com</p>
-          <p>Address: 123 Main St, City, State 12345</p>
-          <p>Hours: Mon-Fri 8am-6pm, Sat 9am-4pm</p>
         </div>
       </section>
     </div>

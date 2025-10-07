@@ -3,7 +3,6 @@ import { useState } from 'react';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
     phone: '',
     message: ''
   });
@@ -36,18 +35,6 @@ const Contact = () => {
                   id="name"
                   name="name"
                   value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
                   onChange={handleChange}
                   required
                   className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
@@ -110,13 +97,11 @@ const Contact = () => {
               <p>Sunday: Closed</p>
             </div>
 
-            {/* Google Maps Placeholder */}
+            {/* Google Maps */}
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Location</h3>
-              <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-                <p className="text-gray-600">Google Maps Embed Here</p>
-                {/* In a real implementation, you'd embed Google Maps iframe */}
-              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3001.5202170428347!2d38.7953994!3d9.0219799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b853a7d4af001%3A0x880f373596b022cb!2sMEGENAGNA%20DENTAL%20CLINIC!5e1!3m2!1sen!2set!4v1759818028224!5m2!1sen!2set" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="w-full h-64 rounded-lg"></iframe>
+              <a href="https://www.google.com/maps/place/MEGENAGNA+DENTAL+CLINIC/@9.0219799,38.7953994,17z/data=!4m6!3m5!1s0x164b853a7d4af001:0x880f373596b022cb!8m2!3d9.0219799!3d38.7953994!16s%2Fg%2F11c1q7z8z8?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Leave a Comment</a>
             </div>
           </div>
         </div>
