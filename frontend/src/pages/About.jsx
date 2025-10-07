@@ -1,3 +1,10 @@
+import beforeAfter0 from '../assets/before_after_0.jpg';
+import beforeAfter1 from '../assets/before_after_1.jpg';
+import beforeAfter2 from '../assets/before_afetre_2.jpg';
+import beforeAfter3 from '../assets/before_after_3.jpg';
+import beforeAfter4 from '../assets/before_after_4.jpg';
+import beforeAfter5 from '../assets/before_after_5.jpg';
+
 const About = () => {
   return (
     <div className="bg-white">
@@ -24,41 +31,59 @@ const About = () => {
             <h2 className="text-5xl font-bold mb-6 text-gray-800">Transformation Gallery</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">Real results from real patients. See how we've helped transform smiles and boost confidence.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
               <div className="relative">
-                <img src="https://images.unsplash.com/photo-1606811951341-756fdd509857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Before orthodontic treatment" className="w-full h-48 object-cover" />
-                <div className="absolute top-2 left-2 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  Before
-                </div>
+                <img src={beforeAfter0} alt="Before orthodontic treatment showing misaligned teeth" className="w-full h-48 object-cover" />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Orthodontic Journey</h3>
-                <p className="text-gray-600">Complete smile transformation with our expert orthodontic care.</p>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Crooked Teeth Correction</h3>
+                <p className="text-gray-600">Before: Notice the severe misalignment and overlapping teeth causing both aesthetic and functional concerns.</p>
               </div>
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
               <div className="relative">
-                <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="After orthodontic treatment" className="w-full h-48 object-cover" />
-                <div className="absolute top-2 left-2 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  After
-                </div>
+                <img src={beforeAfter1} alt="After orthodontic treatment showing perfect alignment" className="w-full h-48 object-cover" />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Perfect Alignment</h3>
-                <p className="text-gray-600">Achieved perfect tooth alignment and improved overall facial aesthetics.</p>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Perfect Smile Alignment</h3>
+                <p className="text-gray-600">After: 18-month orthodontic treatment resulted in perfectly aligned teeth and a confident, beautiful smile.</p>
               </div>
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-600">
               <div className="relative">
-                <img src="https://images.unsplash.com/photo-1606811985880-b05e49c4d7b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Dental treatment results" className="w-full h-48 object-cover" />
-                <div className="absolute top-2 left-2 bg-teal-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  Results
-                </div>
+                <img src={beforeAfter2} alt="Before showing stained and damaged teeth" className="w-full h-48 object-cover" />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Your Success Story</h3>
-                <p className="text-gray-600">Join thousands of patients who have achieved their dream smiles with us.</p>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Stained & Damaged Teeth</h3>
+                <p className="text-gray-600">Before: Years of staining from coffee/tea combined with wear and minor damage affected both appearance and confidence.</p>
+              </div>
+            </div>
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-800">
+              <div className="relative">
+                <img src={beforeAfter3} alt="After showing bright, restored teeth" className="w-full h-48 object-cover" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Bright & Restored Smile</h3>
+                <p className="text-gray-600">After: Professional whitening and restorative treatments created a bright, healthy smile with renewed confidence.</p>
+              </div>
+            </div>
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-1000">
+              <div className="relative">
+                <img src={beforeAfter4} alt="Before showing missing teeth and gaps" className="w-full h-48 object-cover" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Missing Teeth Restoration</h3>
+                <p className="text-gray-600">Before: Multiple missing teeth created gaps and affected chewing ability, speech, and overall facial structure.</p>
+              </div>
+            </div>
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-1200">
+              <div className="relative">
+                <img src={beforeAfter5} alt="After showing complete dental restoration" className="w-full h-48 object-cover" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Complete Dental Restoration</h3>
+                <p className="text-gray-600">After: Full dental implants and restorations restored full functionality, aesthetics, and self-confidence.</p>
               </div>
             </div>
           </div>
@@ -116,7 +141,7 @@ const About = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">15+ Years</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">5+ Years</h3>
                 <p className="text-gray-600">Serving our community with excellence</p>
               </div>
               <div className="text-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
